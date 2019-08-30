@@ -1,5 +1,4 @@
 syntax enable       " enable syntax processing
-colorscheme badwolf
 
 set tabstop=4       " number of visual spaces per tab
 set softtabstop=4   " number of spaces in tab when editing
