@@ -12,15 +12,16 @@ alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
 
+
 # convenience aliases
-alias ls='ls -F'
+alias ls='ls -Fh --color=always'
 alias mkdir='mkdir -p'
 
-alias clear="clear && printf'e[3J'"
-
 alias ..='cd ..'
-alias ...='cd ..; cd ..'
-alias ....='cd..; cd ..; cd..'
+alias ...='cd ../..'
+alias ....='cd../../..'
+
+alias grep='grep --color'
 
 
 # enable colors
